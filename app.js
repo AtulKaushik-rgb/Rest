@@ -8,9 +8,6 @@ const cors = require('cors')
 app.use(bodyParser.json());
 
 //Middlewares
-// app.use('/posts',()=>{
-//     console.log("this is a middleware running")
-// })
 
 //use cors
 app.use(cors());
